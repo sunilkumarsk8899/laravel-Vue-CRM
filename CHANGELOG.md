@@ -4,6 +4,8 @@ This changelog consists of the bug & security fixes and new features being inclu
 
 ## **v2.2.6 (19th of Aug 2026)**
 
+* [fixed] Restored the `.ai/.claude/.codex/.cursor/.kilocode` `skills` symlinks to `.github/skills` so `bin/validate-skills.sh` passes in CI.
+
 * [fixed] Added the missing Chinese translations for the users grid's associated group column.
 
 * [fixed] Fixed flaky admin end-to-end tests around organization owner lookup, lead creation and rich-text comment fields.

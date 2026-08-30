@@ -36,8 +36,13 @@ node_modules/
 /playwright/.cache/
 
 
-.claude/
-.cursor/
-.kilocode/
-.ai/
-.codex/
+.claude/*
+!.claude/skills
+.cursor/*
+!.cursor/skills
+.kilocode/*
+!.kilocode/skills
+.ai/*
+!.ai/skills
+.codex/*
+!.codex/skills
